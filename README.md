@@ -2,6 +2,8 @@
 
 Welcome to the Weather App project! This application is built using React, Tailwind CSS, and Chart.js to provide a visually appealing and informative way to explore weather data. The app focuses on presenting forecast graphs, air quality index, and percentage of air components based on the user's current location.
 
+![weather App](https://raw.githubusercontent.com/Shahbaz-Iqbal3/weather-app/main/coverImage.png)
+
 ## Features
 
 - **Real-time Weather Data:** Get up-to-date weather information based on the user's current location.
