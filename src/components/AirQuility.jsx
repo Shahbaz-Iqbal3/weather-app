@@ -6,7 +6,7 @@ function AirQuility({ latitude, longitude }) {
 
   const [airParticals, setAirParticals] = useState([])
   const [airComp, setAirComp] = useState([])
-  let url = `http://api.openweathermap.org/data/2.5/air_pollution?lat=${latitude}&lon=${longitude}&appid=${ import.meta.env.VITE_API_KEY}`
+  let url = `https://api.openweathermap.org/data/2.5/air_pollution?lat=${latitude}&lon=${longitude}&appid=${ import.meta.env.VITE_API_KEY}`
   const airNames = ['CO', 'NO', "NO", 'O', 'SO', 'PM', 'PM', 'NH' ]
   const airNamesP = ['','',2,3,2,2.5,10,3]
   const apiIndex = ['Good', 'Fair', 'Moderate', 'Poor', 'Very Poor']
