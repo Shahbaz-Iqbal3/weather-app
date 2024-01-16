@@ -1,4 +1,4 @@
-import Weather from "./components/weather";
+import Weather from "./components/Weather";
 import Wgraph from "./components/Wgraph";
 import AirQuility from "./components/AirQuility";
 
